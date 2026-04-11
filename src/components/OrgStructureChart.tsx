@@ -73,7 +73,7 @@ function OrgCard({
               <img
                 src={node.photoUrl}
                 alt={node.name ? `${node.name}, ${node.title}` : node.title}
-                className="mx-auto h-16 w-16 shrink-0 rounded-full object-cover ring-2 ring-primary/25 sm:mx-0 sm:h-14 sm:w-14"
+                className="mx-auto h-18 w-18 shrink-0 rounded-full object-contain ring-2 ring-primary/25 sm:mx-0 sm:h-16 sm:w-16"
               />
             )}
             <div className="min-w-0 flex-1">
@@ -263,7 +263,7 @@ export function OrgStructureChart({ board, tree }: Props) {
                 <img
                   src={detail.photoUrl}
                   alt={detail.name ? `${detail.name}, ${detail.title}` : detail.title}
-                  className="h-20 w-20 shrink-0 rounded-2xl object-cover ring-1 ring-slate-200"
+                  className="h-20 w-20 shrink-0 rounded-2xl object-contain ring-1 ring-slate-200"
                 />
                 {detail.name && <p className="font-semibold text-slate-800">{detail.name}</p>}
               </div>

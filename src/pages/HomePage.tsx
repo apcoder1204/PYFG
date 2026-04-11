@@ -41,6 +41,171 @@ export function HomePage() {
       description:
         "Tracking and monitoring health outcomes to youth in marginalized communities, ensuring they receive the care and support they need.",
     },
+    {
+      src: "/assets/037b0f59-c61d-4ff5-9b9c-6899f0658a9b.jpeg",
+      alt: "Youth health awareness event in Tanzania",
+      description: "Engaging young participants in interactive sessions on sexual and reproductive health education.",
+    },
+    {
+      src: "/assets/1a9d2c3d-93d7-4bb0-9b83-09564d620af8.jpeg",
+      alt: "Rural community outreach program",
+      description: "Providing nutritional education and support to families in remote Tanzanian villages.",
+    },
+    {
+      src: "/assets/20ddf443-84e9-49de-8cfd-aed3ce85d7c2.jpeg",
+      alt: "Strategic planning meeting for health programs",
+      description: "Team leaders aligning on quarterly goals for youth health promotion and community engagement.",
+    },
+    {
+      src: "/assets/2b2c3b9a-5308-4893-bd3e-468170c57f50.jpeg",
+      alt: "Mental health workshop for youth",
+      description: "Facilitating peer counseling and mental health support sessions for young people.",
+    },
+    {
+      src: "/assets/37c7fea2-9a27-460c-9e83-13fdc5881f46.jpeg",
+      alt: "Community needs assessment in Tanzania",
+      description: "Direct engagement with local youth to assess and address community health needs.",
+    },
+    {
+      src: "/assets/37c8c741-4cc1-4a5f-bac5-98f2df168b59.jpeg",
+      alt: "Partner coordination for health initiatives",
+      description: "Collaborating with local stakeholders to strengthen joint health programs.",
+    },
+    {
+      src: "/assets/4aff60c6-e5ad-482a-97e2-f91af6ba1499.jpeg",
+      alt: "Youth leadership empowerment session",
+      description: "Building leadership skills and encouraging community involvement among young leaders.",
+    },
+    {
+      src: "/assets/7cfdd235-6ccd-4728-9533-fc93ca2c8d7d.jpeg",
+      alt: "Maternal and child health services",
+      description: "Delivering essential health services to mothers and children in underserved areas.",
+    },
+    {
+      src: "/assets/9ba3303c-84a9-42e7-b8aa-bf3b72d06f2c.jpeg",
+      alt: "Program evaluation and improvement",
+      description: "Reviewing health program outcomes to ensure effective community impact.",
+    },
+    {
+      src: "/assets/a150f3de-26b6-4f20-a866-0ac4cf8fe460.jpeg",
+      alt: "Physical activity and wellness discussion",
+      description: "Promoting healthy lifestyles through group discussions on physical activity.",
+    },
+    {
+      src: "/assets/b9e713ba-d431-49af-9498-c1cba10c1829.jpeg",
+      alt: "Health program monitoring in communities",
+      description: "Ongoing monitoring of health initiatives to support youth in local settings.",
+    },
+    {
+      src: "/assets/bdbdb1eb-346e-4787-a4b6-9505a81fad3b.jpeg",
+      alt: "Research and capacity building collaboration",
+      description: "Joint research sessions enhancing skills for community health leadership.",
+    },
+    {
+      src: "/assets/d9b079b6-b9e6-42f7-a084-3a445e632751.jpeg",
+      alt: "Educational materials distribution",
+      description: "Distributing health education resources during community field visits.",
+    },
+    {
+      src: "/assets/10363652-237b-44a7-95a9-6e2da1f6ecc4.jpeg",
+      alt: "Youth mental health workshop",
+      description: "Facilitating workshops to build mental health awareness and support networks for youth.",
+    },
+    {
+      src: "/assets/11414ebd-6357-4e40-af3b-de37c631805e.jpeg",
+      alt: "Reproductive health discussion group",
+      description: "Community discussions on reproductive health, rights, and access to services.",
+    },
+    {
+      src: "/assets/22e18cd8-f767-490c-be46-399cbaf1dd97.jpeg",
+      alt: "Mobile health screenings",
+      description: "Bringing health screenings and preventive care to remote and underserved areas.",
+    },
+    {
+      src: "/assets/2f549026-2b93-4dfd-ad44-ff0a9a790f21.jpeg",
+      alt: "Field team coordination",
+      description: "Coordinating field operations to ensure effective health service delivery.",
+    },
+    {
+      src: "/assets/515371c7-3e1c-4d41-af84-61d3168afaae.jpeg",
+      alt: "Leadership development program",
+      description: "Developing leadership skills among youth for community health advocacy.",
+    },
+    {
+      src: "/assets/68075cb5-ca68-42fd-bea9-0604703b402f.jpeg",
+      alt: "Community health surveys",
+      description: "Conducting surveys to understand and address local health challenges.",
+    },
+    {
+      src: "/assets/6a89e0e0-28a6-4a4d-817b-60cec7dce39f.jpeg",
+      alt: "Campaign planning session",
+      description: "Planning health education campaigns to reach more young people.",
+    },
+    {
+      src: "/assets/7d56c55a-6347-4f1f-8790-264d06fa399a.jpeg",
+      alt: "Free health screenings event",
+      description: "Providing free health screenings and consultations at community events.",
+    },
+    {
+      src: "/assets/81910d2f-dc27-42a7-86a5-5a06c1759519.jpeg",
+      alt: "Program impact monitoring",
+      description: "Monitoring and evaluating the impact of health programs on communities.",
+    },
+    {
+      src: "/assets/906bc429-ada4-405a-ba84-3c843971824e.jpeg",
+      alt: "Partnership discussions",
+      description: "Building partnerships with local organizations for sustainable health solutions.",
+    },
+    {
+      src: "/assets/94f1b269-e0eb-4efe-b789-b255c78a0ae5.jpeg",
+      alt: "Nutrition education seminar",
+      description: "Teaching proper nutrition and healthy eating habits to youth.",
+    },
+    {
+      src: "/assets/967c294d-f4c3-4c68-9662-8ff024491220.jpeg",
+      alt: "Health services in marginalized communities",
+      description: "Delivering essential health services to marginalized and vulnerable populations.",
+    },
+    {
+      src: "/assets/aa1a5051-187f-476a-a41e-de93c7a9919f.jpeg",
+      alt: "Field activity debrief",
+      description: "Reviewing field activities to improve future health outreach efforts.",
+    },
+    {
+      src: "/assets/ab2f5db6-5b06-449f-9e8d-24fc6220983b (1).jpeg",
+      alt: "Health awareness gathering",
+      description: "Community gatherings focused on raising health awareness and support.",
+    },
+    {
+      src: "/assets/ab2f5db6-5b06-449f-9e8d-24fc6220983b.jpeg",
+      alt: "On-site health education",
+      description: "Providing health education directly in community locations.",
+    },
+    {
+      src: "/assets/c337a962-01a7-4494-b546-f725f9fd0eac.jpeg",
+      alt: "Program effectiveness review",
+      description: "Reviewing program effectiveness to ensure positive health outcomes.",
+    },
+    {
+      src: "/assets/ddc8fccc-cb07-45d3-a423-70caef54de2f.jpeg",
+      alt: "Youth health development camp",
+      description: "Camps dedicated to youth health development and skill-building.",
+    },
+    {
+      src: "/assets/e0160c8f-42db-4c27-a0c3-c0fc8d3dbc74.jpeg",
+      alt: "Rural health resource distribution",
+      description: "Distributing health resources and support to rural communities.",
+    },
+    {
+      src: "/assets/ed722080-c933-4d13-ac87-ebe142610ee4.jpeg",
+      alt: "Collaborative initiative planning",
+      description: "Planning collaborative initiatives with partners for broader impact.",
+    },
+    {
+      src: "/assets/f4bec68f-814a-4496-baae-da750d286dc6.jpeg",
+      alt: "Youth wellness promotion",
+      description: "Promoting overall wellness and healthy lifestyles among young people.",
+    },
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -546,7 +711,7 @@ export function HomePage() {
                     <img
                       src={leader.photoUrl}
                       alt={leader.name}
-                      className="h-16 w-16 shrink-0 rounded-full object-cover ring-2 ring-slate-100"
+                      className="h-20 w-20 shrink-0 rounded-full object-contain ring-1 ring-slate-100"
                     />
                     <div className="min-w-0">
                       <h3 className="text-lg font-bold text-slate-900">{leader.name}</h3>

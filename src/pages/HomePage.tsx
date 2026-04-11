@@ -226,53 +226,57 @@ export function HomePage() {
       />
 
       <section className="hero-gradient overflow-hidden px-4 pb-24 pt-28 text-white sm:px-6 lg:px-8">
-        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center">
-          <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium">
-              <span className="h-2 w-2 rounded-full bg-secondary" />
-              Registered NGO: 00NGO/R/5045
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div className="space-y-8">
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium">
+                <span className="h-2 w-2 rounded-full bg-secondary" />
+                Registered NGO: 00NGO/R/5045
+              </div>
+              <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl">
+                Let&apos;s Build Our Future <span className="text-secondary">Together</span>
+              </h1>
+              <p className="max-w-xl text-lg text-slate-200">
+                Potential Youth for the Future Generation is a Tanzania mainland-based
+                non-governmental organisation addressing social, health, and economic
+                challenges facing young people in marginalised communities.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link to="/impact-hub" className="rounded-2xl bg-white px-8 py-4 font-bold text-dark">
+                  Explore Impact
+                </Link>
+                <Link
+                  to="/stories"
+                  className="rounded-2xl border-2 border-white/30 px-8 py-4 font-bold"
+                >
+                  Learn More
+                </Link>
+              </div>
             </div>
-            <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl">
-              Let&apos;s Build Our Future <span className="text-secondary">Together</span>
-            </h1>
-            <p className="max-w-xl text-lg text-slate-200">
-              Potential Youth for the Future Generation is a Tanzania mainland-based
-              non-governmental organisation addressing social, health, and economic
-              challenges facing young people in marginalised communities.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link to="/impact-hub" className="rounded-2xl bg-white px-8 py-4 font-bold text-dark">
-                Explore Impact
-              </Link>
-              <Link
-                to="/stories"
-                className="rounded-2xl border-2 border-white/30 px-8 py-4 font-bold"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-          <img
-            src={heroImages[currentImageIndex].src}
-            alt={heroImages[currentImageIndex].alt}
-            className="block rounded-[2.5rem] border-8 border-white/10 shadow-2xl lg:block transition-opacity duration-1000 ease-in-out"
-          />
-          <div className="flex justify-center mt-4 space-x-2">
-            {heroImages.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentImageIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentImageIndex ? 'bg-white' : 'bg-white/50'
-                }`}
-                aria-label={`View image ${index + 1}`}
+            <div className="flex flex-col items-center space-y-4">
+              <img
+                src={heroImages[currentImageIndex].src}
+                alt={heroImages[currentImageIndex].alt}
+                className="w-full max-w-md rounded-[2.5rem] border-8 border-white/10 shadow-2xl transition-opacity duration-1000 ease-in-out lg:max-w-none"
               />
-            ))}
-          </div>
-          <div className="block mt-4 text-center">
-            <p className="text-white/90 text-sm max-w-md mx-auto leading-relaxed">
-              {heroImages[currentImageIndex].description}
-            </p>
+              <div className="flex justify-center space-x-2">
+                {heroImages.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentImageIndex(index)}
+                    className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                      index === currentImageIndex ? 'bg-white' : 'bg-white/50'
+                    }`}
+                    aria-label={`View image ${index + 1}`}
+                  />
+                ))}
+              </div>
+              <div className="text-center">
+                <p className="text-white/90 text-sm max-w-md mx-auto leading-relaxed">
+                  {heroImages[currentImageIndex].description}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

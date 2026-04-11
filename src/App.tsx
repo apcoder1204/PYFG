@@ -19,6 +19,12 @@ const DonatePage = lazy(() => import("./pages/DonatePage").then((m) => ({ defaul
 const NotFoundPage = lazy(() =>
   import("./pages/NotFoundPage").then((m) => ({ default: m.NotFoundPage })),
 );
+const PhotoGalleryPage = lazy(() =>
+  import("./pages/PhotoGalleryPage").then((m) => ({ default: m.PhotoGalleryPage })),
+);
+const OrgStructurePage = lazy(() =>
+  import("./pages/OrgStructurePage").then((m) => ({ default: m.OrgStructurePage })),
+);
 
 function App() {
   return (
@@ -31,6 +37,8 @@ function App() {
           <Route path="/stories" element={<StoriesPage />} />
           <Route path="/growth-path" element={<GrowthPathPage />} />
           <Route path="/donate" element={<DonatePage />} />
+          <Route path="/gallery" element={<PhotoGalleryPage />} />
+          <Route path="/organization" element={<OrgStructurePage />} />
           <Route path="/home" element={<Navigate to="/" replace />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

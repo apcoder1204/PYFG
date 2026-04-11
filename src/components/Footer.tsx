@@ -129,13 +129,18 @@ export function Footer() {
               <h3 className="text-lg font-bold text-white">Quick Links</h3>
               <ul className="mt-5 space-y-3 text-sm">
                 <li>
-                  <Link to="/#mission-vision" className="hover:text-white">
-                    Mission &amp; Vision
+                  <Link to="/#core-values" className="hover:text-white">
+                    Core Values
                   </Link>
                 </li>
                 <li>
-                  <Link to="/#health-promotion" className="hover:text-white">
-                    Health Promotion
+                  <Link to="/#who-we-are" className="hover:text-white">
+                    Who We Are
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/#leadership" className="hover:text-white">
+                    Leadership Team
                   </Link>
                 </li>
                 <li>

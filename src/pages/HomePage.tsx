@@ -225,54 +225,66 @@ export function HomePage() {
         description="Potential Youth for Future Generation supports marginalized youth in Tanzania through health promotion, support services, and research."
       />
 
-      <section className="hero-gradient overflow-hidden px-4 pb-24 pt-28 text-white sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div className="space-y-8">
-              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium">
-                <span className="h-2 w-2 rounded-full bg-secondary" />
-                Registered NGO: 00NGO/R/5045
+      <section className="hero-gradient overflow-x-hidden px-4 pb-24 pt-28 text-white sm:px-6 lg:px-8">
+        <div className="mx-auto min-w-0 max-w-7xl">
+          <div className="grid min-w-0 gap-10 sm:gap-12 lg:grid-cols-2 lg:items-center">
+            <div className="min-w-0 space-y-6 sm:space-y-8">
+              <div className="inline-flex max-w-full flex-wrap items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium">
+                <span className="h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                <span className="break-words">Registered NGO: 00NGO/R/5045</span>
               </div>
-              <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl">
+              <h1 className="text-balance text-3xl font-extrabold leading-tight break-words sm:text-5xl lg:text-6xl">
                 Let&apos;s Build Our Future <span className="text-secondary">Together</span>
               </h1>
-              <p className="max-w-xl text-lg text-slate-200">
+              <p className="max-w-xl text-base leading-relaxed text-slate-200 break-words sm:text-lg">
                 Potential Youth for the Future Generation is a Tanzania mainland-based
                 non-governmental organisation addressing social, health, and economic
                 challenges facing young people in marginalised communities.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link to="/impact-hub" className="rounded-2xl bg-white px-8 py-4 font-bold text-dark">
+              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+                <Link
+                  to="/impact-hub"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-2xl bg-white px-6 py-3 text-center font-bold text-dark sm:w-auto sm:px-8 sm:py-4"
+                >
                   Explore Impact
                 </Link>
                 <Link
                   to="/stories"
-                  className="rounded-2xl border-2 border-white/30 px-8 py-4 font-bold"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-2xl border-2 border-white/30 px-6 py-3 text-center font-bold sm:w-auto sm:px-8 sm:py-4"
                 >
                   Learn More
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-center space-y-4">
-              <img
-                src={heroImages[currentImageIndex].src}
-                alt={heroImages[currentImageIndex].alt}
-                className="w-full max-w-md rounded-[2.5rem] border-8 border-white/10 shadow-2xl transition-opacity duration-1000 ease-in-out lg:max-w-none"
-              />
-              <div className="flex justify-center space-x-2">
-                {heroImages.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setCurrentImageIndex(index)}
-                    className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                      index === currentImageIndex ? 'bg-white' : 'bg-white/50'
-                    }`}
-                    aria-label={`View image ${index + 1}`}
-                  />
-                ))}
+            <div className="flex min-w-0 w-full max-w-full flex-col items-stretch space-y-4 sm:items-center">
+              <div className="relative w-full max-w-full overflow-hidden rounded-3xl border-4 border-white/10 shadow-2xl sm:rounded-[2.5rem] sm:border-8 lg:max-w-none">
+                <img
+                  src={heroImages[currentImageIndex].src}
+                  alt={heroImages[currentImageIndex].alt}
+                  className="block aspect-[4/3] h-auto w-full max-w-full object-cover object-center transition-opacity duration-1000 ease-in-out lg:aspect-auto lg:max-h-[min(70vh,640px)] lg:object-contain"
+                />
               </div>
-              <div className="text-center">
-                <p className="text-white/90 text-sm max-w-md mx-auto leading-relaxed">
+              <div className="w-full max-w-full min-w-0">
+                <p className="mb-2 text-center text-xs text-white/70 sm:text-sm">
+                  Slide {currentImageIndex + 1} of {heroImages.length}
+                </p>
+                <div className="flex max-w-full flex-wrap justify-center gap-1.5 px-0 sm:gap-2">
+                  {heroImages.map((_, index) => (
+                    <button
+                      key={index}
+                      type="button"
+                      onClick={() => setCurrentImageIndex(index)}
+                      className={`h-2 w-2 shrink-0 rounded-full transition-all duration-300 sm:h-2.5 sm:w-2.5 ${
+                        index === currentImageIndex ? "bg-white" : "bg-white/50"
+                      }`}
+                      aria-label={`View image ${index + 1}`}
+                      aria-current={index === currentImageIndex ? "true" : undefined}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className="w-full max-w-full px-0 text-center sm:px-2">
+                <p className="mx-auto max-w-full text-sm leading-relaxed text-white/90 break-words sm:max-w-md">
                   {heroImages[currentImageIndex].description}
                 </p>
               </div>
